@@ -1,0 +1,69 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  color: black;
+  margin:3em 4em 4em 4em;
+  font-family: 'Lucida Console', Courier, monospace;
+  font-size: 15px;
+}
+
+
+.nefes {
+  display:block;
+  font-size:1.5vw;
+  width:70%;
+  max-width:55rem;
+  margin:20vh auto 15vw;
+  font-family: 'Lucida Console', Courier, monospace;
+}
+.nefes a {
+  color:#000;
+  border-bottom:solid 1px;
+  filter: blur(1vh);
+  -webkit-filter: blur(1vh);
+  transition: all 5s ease;
+  overflow:hidden;
+  display: inline-block;
+}
+.nefes a:hover {
+  filter: blur(0);
+  -webkit-filter: blur(0);
+  transform: scale(5.5,20.2);
+  /* transition: all 1000ms ease; */
+}
+
+.nefes span {
+
+  transition: all 5s ease;
+
+  /* padding: 20px; */
+
+}
+
+.nefes span:hover {
+  /* background-color: lightgray; */
+    filter: blur(1vh);
+
+}
+
+.renew {
+  line-height: 1.5;
+  font-family: "open sans light", sans-serif;
+  /* margin:5em 10em 10em 10em; */
+  background-color: beige;
+
+}
+
+.note {
+  line-height: 1.5;
+  font-family: "open sans light", sans-serif;
+  /* margin:5em 10em 10em 10em; */
+  background-color: beige;
+
+}
+
+a {
+   color: black;
+}

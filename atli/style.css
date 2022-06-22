@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+  font-size: 6px;
+
+}
+
+@font-face {
+	font-family: Muybridge;
+	src: url(https://www.lorp.org/fonts/MuybridgeGX.woff2);
+}
+
+@keyframes Gallop {
+	from { font-variation-settings: "TIME" 0; }
+	to { font-variation-settings: "TIME" 15; }
+}
+
+body {
+	font: 320px Muybridge;
+	animation: 0.6s linear infinite Gallop;
+}
+
+body:hover {
+  animation-duration: 6s;
+}
+
+#horse {
+  background: url(untitled-1.jpg);
+  width:200px;
+  height: 250px;
+  animation: walk 0.5s steps(5) infinite;
+}
+
+@keyframes walk {
+  0%{background-position: 0px;}
+  100%{background-position: -1000px;}
+}
+
+.runner {
+    background: white;
+    width: 500px;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    animation: run 2s ease infinite;
+}
