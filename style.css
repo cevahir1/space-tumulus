@@ -9,7 +9,9 @@ body {
   font-size: 15px;
 }
 
-
+a {
+  color: black;
+}
 .nefes {
   display:block;
   font-size:1.5vw;
@@ -23,7 +25,7 @@ body {
   border-bottom:solid 1px;
   filter: blur(1vh);
   -webkit-filter: blur(1vh);
-  transition: all 5s ease;
+  transition: filter 5s ease, transform 5s ease;
   overflow:hidden;
   display: inline-block;
 }
@@ -68,10 +70,10 @@ a {
    color: black;
 }
 
-.text-box span {
+/* .text-box span {
   display: inline-block;
   padding:0.5em 0;
   position: relative;
   border: dashed black (44, 64, 252);
   border-width: 1px 0 1px 0;
-}
+} */
